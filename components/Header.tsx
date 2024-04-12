@@ -99,7 +99,7 @@ function Header() {
                     >
                       <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-gray-200">
                         <item.icon
-                          className="h-6 w-6 text-[#013B94] group-hover:text-blue-600"
+                          className="h-6 w-6 text-[#56565a] group-hover:text-black"
                           aria-hidden="true"
                         />
                       </div>
@@ -107,12 +107,12 @@ function Header() {
                       <div className="flex-auto">
                         <a
                           href={item.href}
-                          className="block font-semibold text-[#013B94]"
+                          className="block font-semibold text-[#56565a]"
                         >
                           {item.name}
                           <span className="absolute inset-0" />
                         </a>
-                        <p className="mt-1 text-[#013B94]">
+                        <p className="mt-1 text-[#56565a]">
                           {item.description}
                         </p>
                       </div>
@@ -125,10 +125,10 @@ function Header() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-[#013B94] hover:bg-gray-100"
+                      className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-[#56565a] hover:bg-gray-100"
                     >
                       <item.icon
-                        className="h-5 w-5 flex-none text-[#013B94]"
+                        className="h-5 w-5 flex-none text-[#56565a]"
                         aria-hidden="true"
                       />
                       {item.name}
